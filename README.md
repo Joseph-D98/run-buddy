@@ -12,3 +12,5 @@ https://joseph-d98.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Joseph DeFelice
+
+### ©️2019 Run Buddy, Inc 

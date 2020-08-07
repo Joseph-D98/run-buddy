@@ -374,6 +374,34 @@ section {
     background-size: cover;
 }
 
+.trainer-img h3 {
+    position: relative;
+    z-index: 500;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.trainer-img h4 {
+    position: relative;
+    z-index: 501;
+    font-size: 22px;
+}
+
+.trainer-wrapper .trainer-img {
+    position: relative;
+}
+
+.trainer-wrapper .trainer-img::after  {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(252, 225, 56, 0.3);
+    background: linear-gradient(rgba(252, 225, 56, 0.3), rgba(2, 78, 118, 1));
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .trainer-bio {
     padding: 25px;
     line-height: 1.3;
